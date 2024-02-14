@@ -1,0 +1,36 @@
+*{padding: 0;
+margin: 0px;}
+
+.nav-bar
+{
+    display: grid;
+    background-color:#e7717d;
+}
+li:hover{border:3px solid white;}
+
+
+.navlist > ul
+{
+    display: flex;
+    gap:20px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    list-style: none;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.logo{display: flex;
+margin-bottom: 5px;
+border:2px solid black;
+border-radius: 60%;}
+
+
+
+a
+{
+    text-decoration: none;
+    color:whitesmoke;
+
+}
